@@ -30,7 +30,7 @@
             </div>
             <div class="w3-section">
                 <input class="w3-input" type="email" nome="email" required>
-                <label>Email</label>
+                <label>E-mail</label>
             </div>
             <div class="w3-section">
                 <input class="w3-input w3-date" type="date" required>
@@ -39,74 +39,98 @@
 
             <div class="w3-section">
                 <input class="w3-input" type="text" required>
-                <label>Comentarios</label>
+                <label>Profissão</label>
             </div>
-            <div class="w3-row">
-                <div class="w3-half">
-                    <label>Deseja receber informações por e-mail?</label>
-                    <input class="w3-radio" type="radio" checked="checked" name="aceita_email">
-                    <label>Sim</label>
-                    <br>
-                    <input class="w3-radio" type="radio" name="aceita_email">
-                    <label>Não</label>
-                    <br>
-                </div>
+
+            <div class="w3-section">
+                <input class="w3-input" type="text" required>
+                <label>Empresa</label>
+            </div>
+        </section>
+    </div>
+    <!-- segunda  -->
+    <div class="w3-left">
+        <section class="w3-container">
+            <h2>Endereço</h2>
+            <div class="w3-section">
+                <input class="w3-input" type="text" name="nome" required>
+                <label>Rua</label>
+            </div>
+            <div class="w3-section">
+                <input class="w3-input" type="email" nome="email" required>
+                <label>CEP</label>
+            </div>
+            <div class="w3-section">
+                <input class="w3-input" type="text" required>
+                <label>Bairro</label>
+            </div>
+            <div class="w3-section">
+                <input class="w3-input" type="text" required>
+                <label>Cidade</label>
+            </div>
+            <div class="w3-section">
+                <select class="w3-select" name="" id="">
+                    <option value="AC">Acre</option>
+                    <option value="AL">Alagoas</option>
+                    <option value="AP">Amapá</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="BA">Bahia</option>
+                    <option value="CE">Ceará</option>
+                    <option value="DF">Distrito Federal</option>
+                    <option value="ES">Espírito Santo</option>
+                    <option value="GO">Goiás</option>
+                    <option value="MA">Maranhão</option>
+                    <option value="MT">Mato Grosso</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="PA">Pará</option>
+                    <option value="PB">Paraíba</option>
+                    <option value="PR">Paraná</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="PI">Piauí</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="RO">Rondônia</option>
+                    <option value="RR">Roraima</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="SE">Sergipe</option>
+                    <option value="TO">Tocantins</option>
+                </select>
+                <label>Estado</label>
         </section>
         </div>
-        <!-- segunda  -->
-        <div class="w3-left">
 
+        <!-- terceira -->
+        <div class="w3-half">
             <section class="w3-container">
-                <h2>Endereço</h2>
+                <h2>Adicionais</h2>
                 <div class="w3-section">
-                    <input class="w3-input" type="text" name="nome" required>
-                    <label>Rua</label>
+                    <textarea class="´w3-textarea" rows="5" cols="30" ></textarea>
+                    <br>
+                    <label>Comentarios</label>
                 </div>
-                <div class="w3-section">
-                    <input class="w3-input" type="email" nome="email" required>
-                    <label>CEP</label>
-                </div>
-                <div class="w3-section">
-                    <input class="w3-input" type="text" required>
-                    <label>Bairro</label>
-                </div>
-                <div class="w3-section">
-                    <input class="w3-input" type="text" required>
-                    <label>Cidade</label>
-                </div>
-                <div class="w3-section">
-                    <select class="w3-select" name="" id="">
-                        <option value="AC">Acre</option>
-                        <option value="AL">Alagoas</option>
-                        <option value="AP">Amapá</option>
-                        <option value="AM">Amazonas</option>
-                        <option value="BA">Bahia</option>
-                        <option value="CE">Ceará</option>
-                        <option value="DF">Distrito Federal</option>
-                        <option value="ES">Espírito Santo</option>
-                        <option value="GO">Goiás</option>
-                        <option value="MA">Maranhão</option>
-                        <option value="MT">Mato Grosso</option>
-                        <option value="MS">Mato Grosso do Sul</option>
-                        <option value="MG">Minas Gerais</option>
-                        <option value="PA">Pará</option>
-                        <option value="PB">Paraíba</option>
-                        <option value="PR">Paraná</option>
-                        <option value="PE">Pernambuco</option>
-                        <option value="PI">Piauí</option>
-                        <option value="RJ">Rio de Janeiro</option>
-                        <option value="RN">Rio Grande do Norte</option>
-                        <option value="RS">Rio Grande do Sul</option>
-                        <option value="RO">Rondônia</option>
-                        <option value="RR">Roraima</option>
-                        <option value="SC">Santa Catarina</option>
-                        <option value="SP">São Paulo</option>
-                        <option value="SE">Sergipe</option>
-                        <option value="TO">Tocantins</option>
-                    </select>
-                    <label>Estado</label>
+                <div class="w3-row">
+                    <div class="w3-half">
+                        <label>Deseja receber informações por e-mail?</label>
+                        
+                        <br>
+                        <input class="w3-radio" type="radio" checked="checked" name="aceita_email">
+                        <label>Sim</label>
+                        <input class="w3-radio" type="radio" name="aceita_email">
+                        <label>Não</label>
+                        <br>
+                         <div class="w3-section"  >
+                            <button  type="submit">Enviar</button>
+                        </div>
+                    
+                    </div>
+
+
             </section>
             </div>
+
             <!-- Footer -->
             <div class="w3-bar w3-theme">
                 <button class="w3-bar-item w3-button testbtn w3-padding-16"></button>
@@ -133,7 +157,6 @@
                 <p>
                 </p>
             </footer>
-
             <!-- Script for Sidebar, Tabs, Accordions, Progress bars and slideshows -->
             <script src="asserts/js/app.js"></script>
 </body>
