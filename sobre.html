@@ -6,6 +6,7 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-teal.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="asserts/css/style.css">
 
 <body class="w3-theme">
 
@@ -14,41 +15,86 @@
     <!-- Header -->
     <header class="w3-container w3-theme w3-padding" id="myHeader">
 
-            <div class="w3-bar w3-theme">
-                    <a href="/" class="w3-bar-item w3-button w3-padding-16">Home</a>
-                    <a href="/contato.html" class="w3-bar-item w3-button w3-padding-16">Contato</a>
-                    <a href="/sobre.html" class="w3-bar-item w3-button w3-padding-16">Sobre</a>
-                </div>
-        
-
-
+        <div class="w3-bar w3-theme">
+            <a href="/" class="w3-bar-item w3-button w3-padding-16">Home</a>
+            <a href="/contato.html" class="w3-bar-item w3-button w3-padding-16">Contato</a>
+            <a href="/sobre.html" class="w3-bar-item w3-button w3-padding-16">Sobre</a>
+        </div>
 
         <div class="w3-center">
             <h4>Revolução no modo de Aprender</h4>
             <h1 class="w3-xxxlarge w3-animate-bottom">Teacher Assistant</h1>
-
+            <p>A Plataforma Teacher Assistant</p>
+            <p style="font-size:22px">
+                Uma Plataforma de ensino holográfico onde o professor faz transmissões ao vivo de aulas para o celular do aluno,
+                <br> o mesmo pode tirar dúvidas com o professor no ato da transmissão da aula. O aplicativo e totalmente gratuito, 
+                <br>apenas e necessário o aluno adquirir o suporte para transformar a imagem em holograma. 
+                <br>Dinamizando o ensino e engajando o aluno a participar das aulas de onde estiver, sem precisar ir à uma sala de aula
+            </p>
+     
         </div>
     </header>
 
 
-    <div class="w3-content" style="max-width:800px;position:relative">
 
-        <img class="mySlides w3-animate-opacity" src="\asserts\imagens\137652.jpg" style="width:100%">
-        <img class="mySlides w3-animate-opacity" src="https://www.w3schools.com/w3images/lights.jpg" style="width:100%">
-        <img class="mySlides w3-animate-opacity" src="https://www.w3schools.com/w3images/mountains.jpg" style="width:100%">
-        <img class="mySlides w3-animate-opacity" src="https://www.w3schools.com/w3images/forest.jpg" style="width:100%">
+    <div class="">
+        <div class=" w3-border w3-bar w3-theme">
+            <button class="w3-bar-item w3-button testbtn w3-padding-16" onclick="openCity(event,'Wellington')">Wellington</button>
+            <button class="w3-bar-item w3-button testbtn w3-padding-16" onclick="openCity(event,'Marcio')">Marcio</button>
+            <button class="w3-bar-item w3-button testbtn w3-padding-16" onclick="openCity(event,'Erivelton')">Erivelton</button>
+            <button class="w3-bar-item w3-button testbtn w3-padding-16" onclick="openCity(event,'Odilon')">Odilon</button>
+            <button class="w3-bar-item w3-button testbtn w3-padding-16" onclick="openCity(event,'Zilma')">Zilma</button>
+        </div>
+        <div id="Wellington" class="w3-container  city w3-animate-opacity">
+            <h2>Wellington.</h2>
 
-        <a class="w3-button w3-circle w3-hover-dark-grey" style="position:absolute;top:45%;left:0;" onclick="plusDivs(-1)">&#10094;</a>
-        <a class="w3-button w3-circle w3-hover-dark-grey" style="position:absolute;top:45%;right:0;" onclick="plusDivs(+1)">&#10095;</a>
+            <div class="circle">
+                <img  style="bottom:-45%" bordercolor="white" src="/asserts/imagens/wellington.jpg" alt="" srcset="">
+            </div>
+            <p>Wellington Oliveira.</p>
+            <p>Analista de Sistemas na empresa Mind Tecnologia.</p>
+        </div>
+
+        <div id="Marcio" class="w3-container city w3-animate-opacity">
+            <h2>Marcio.</h2>
+            
+            <div class="circle">
+                <img style="bottom:-35%"  bordercolor="white" src="/asserts/imagens/marcio.jpg" alt="" srcset="">
+            </div>
+            <p>Marcio Ladislau.</p>
+            <p>Engenheiro de Sistemas na emprera Mind Tecnologia.</p>
+        </div>
+
+        <div id="Erivelton" class="w3-container city w3-animate-opacity">
+            <h2>Erivelton.</h2>
+            <div class="circle">
+                <img style="bottom:-20%"  bordercolor="white" src="/asserts/imagens/erivelton.jpg" alt="" srcset="">
+            </div>
+            <p>Erivelton Nascimento.</p>
+            <p>Engenheiro de Sistemas na emprera Mind Tecnologia.</p>
+        </div>
+        <div id="Odilon" class="w3-container city w3-animate-opacity">
+            <h2>Odilon</h2>
+            <div class="circle">
+                <img style="bottom: -35%" bordercolor="white" src="/asserts/imagens/odilon.jpg" alt="" srcset="">
+            </div>
+            <p>Odilon.</p>
+            <p>CEO e Scrum Master na empresa Mind Tecnologia.</p>
+        </div>
+        <div id="Zilma" class="w3-container city w3-animate-opacity">
+            <h2>Zilma</h2>
+            <div class="circle">
+                <img style="bottom: -28%" bordercolor="white" src="/asserts/imagens/zilma.jpg" alt="" srcset="">
+            </div>
+            <p>Zilma.</p>
+            <p>Analista de Testes na empresa Mind Tecnologia.</p>
+        </div>
     </div>
 
 
-    <div class="w3-bar w3-theme">
-        <button class="w3-bar-item w3-button testbtn w3-padding-16"></button>
-    </div>
     <!-- Footer -->
     <footer class="w3-container w3-theme-dark">
-        
+
         <h3>Teacher Assistant</h3>
         <p>
             <p>Desenvolvido pela Mind Tecnologia &copy; </p>
