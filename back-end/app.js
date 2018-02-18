@@ -42,7 +42,7 @@ app.post('/contato', function (req, res) {
 
         if (erro) {
             console.log(erro);
-            res.redirect(url + "asserts/js/falha");
+            res.redirect(url + "asserts/js/falha.html");
         } else {
             console.log("Deu certo...");
             res.redirect(url + "asserts/js/sucesso.html");
